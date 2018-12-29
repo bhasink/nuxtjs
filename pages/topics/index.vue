@@ -45,7 +45,7 @@
 
             <!--</ul>-->
 
-            <pagination :data="laravelData" @pagination-change-page="loadMore(key)"></pagination>
+            <!--<pagination :data="laravelData" @pagination-change-page="loadMore(key)"></pagination>-->
 
 
         </nav>
