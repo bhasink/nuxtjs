@@ -1,6 +1,6 @@
 import Vue from "vue";
 
-Vue.component('pagination', require('laravel-vue-pagination'));
+Vue.component('pagination', require('../node_modules/laravel-vue-pagination'));
 
 
 //
