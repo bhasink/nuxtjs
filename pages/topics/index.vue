@@ -38,12 +38,15 @@
         </div>
 
         <nav>
-            <ul class="pagination justify-content-center">
-                <li v-for="(key,value) in links" class="page-item">
-                    <a @click="loadMore(key)" href="#" class="page-link">{{value}}</a>
-                </li>
+            <!--<ul class="pagination justify-content-center">-->
+                <!--<li v-for="(key,value) in links" class="page-item">-->
+                    <!--<a @click="loadMore(key)" href="#" class="page-link">{{value}}</a>-->
+                <!--</li>-->
 
-            </ul>
+            <!--</ul>-->
+
+            <pagination :data="laravelData" @pagination-change-page="loadMore(key)"></pagination>
+
 
         </nav>
 
